@@ -56,3 +56,43 @@ print('two dimensional array: ', numpy_two_dimensional_list.tolist())
 
 
 
+#shape of NumPy arrray 
+nums = np.array([1, 2, 3, 4, 5])
+print(nums)
+print('shape of nums: ', nums.shape)
+print(numpy_two_dimensional_list)
+print('shape of numpy_two_dimensional_list: ', numpy_two_dimensional_list.shape)
+three_by_four_array = np.array([[0, 1, 2, 3],
+    [4,5,6,7],
+    [8,9,10, 11]])
+print(three_by_four_array.shape)
+
+
+
+#data type of numpy array
+int_lists = [-3, -2, -1, 0, 1, 2,3]
+int_array = np.array(int_lists)
+float_array = np.array(int_lists, dtype=float)
+
+print(int_array)
+print(int_array.dtype)
+print(float_array)
+print(float_array.dtype)
+
+
+
+
+
+#Size of Numpy array
+numpy_array_from_list = np.array([1, 2, 3, 4, 5])
+two_dimensional_list = np.array([[0, 1, 2],
+                              [3, 4, 5],
+                              [6, 7, 8]])
+
+print('The size:', numpy_array_from_list.size) # 5
+print('The size:', two_dimensional_list.size)  # 3
+
+
+
+
+
